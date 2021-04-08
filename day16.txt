@@ -1,0 +1,20 @@
+[태그 가운데 정렬하기]
+1. margin:0 auto;
+  - width를 함께 사용
+  - float, absolute, fixed는 margin:0 auto를 사용할 수 없다.
+
+2. abssolute가 지정된 태그
+  - left:50%;
+  - top:50%;
+  - margin-left: -width/2
+  - margin-top: -height/2
+
+3. text-align:center; 을 이용한 방법
+  - 부모태그 - text-align:center;
+  - 가운데 설정할 자식태그 : display:inline-block; 
+  
+  *** 만약 가운데 설정이 안될 경우, 부모태그의 width를 확인
+
+
+
+
